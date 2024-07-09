@@ -1,0 +1,9 @@
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_aster_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.001 --tssim_loss --test_model="ASTER" 
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_ft_noencoder_crnn_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.0002 --resume="TATT_noencoder_crnn_pcan/" --tssim_loss --test_model="CRNN"
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_noencoder_aster_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.001 --tssim_loss --test_model="ASTER"  --resume="/data/cl/TATT_ASTER/ckpt/TATT_noencoder_aster" --go_test
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_ft_noencoder_aster_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.0002 --resume="TATT_noencoder_aster_pcan/" --tssim_loss --test_model="ASTER"
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_noencoder_moran_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.001 --tssim_loss --test_model="MORAN" --resume="ckpt/TATT_noencoder_moran_pcan/" 
+python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_noencoder_crnn_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.001 --tssim_loss --test_model="CRNN" --resume="ckpt/TATT_noencoder_crnn_pcan" 
+# python3 main.py --arch="tatt" --batch_size=64 --STN --mask --use_distill --gradient  --sr_share --stu_iter=1 --vis_dir='TATT_noencoder_aster_pcan/'  --rotate_train=5 --rotate_test=0 --learning_rate=0.001 --tssim_loss --test_model="ASTER" --resume="ckpt/TATT_noencoder_aster_pcan" 
+
+
